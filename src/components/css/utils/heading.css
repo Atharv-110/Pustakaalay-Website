@@ -1,39 +1,45 @@
-:root{
-    --white-color: #F6F4F4;
-    --primary-color-1: #530889;
-    --primary-color-2:#D60296;
-    --primary-color-3:#F85B4E;
-    --primary-color-4:#DDD1C2;
-    --primary-dark-color : #E0237F;
-  --primary-dark-color : #1C1C21;
+:root {
+  --white-color: #f6f4f4;
+  --primary-color-1: #530889;
+  --primary-color-2: #d60296;
+  --primary-color-3: #f85b4e;
+  --primary-color-4: #ddd1c2;
+  --primary-dark-color: #e0237f;
+  --primary-dark-color: #1c1c21;
 }
 
-.heading{
-    display: block;
-    margin: auto;
-    text-align: center;
-    text-transform: uppercase;
-    width:fit-content;
+.heading {
+  display: block;
+  margin: auto;
+  text-align: center;
+  text-transform: uppercase;
+  width: fit-content;
 }
 
-.heading-text{
-    font-size: 1.5rem;
+.heading-text {
+  font-size: 1.5rem;
 }
 
-.heading-main{
-    letter-spacing: 5px;
-    font-size: 2.8rem;
-    background:linear-gradient(to right, var(--primary-color-1), var(--primary-color-2),var(--primary-color-4),var(--primary-color-3));
-    background-clip: text;
-    color: transparent;
+.heading-main {
+  letter-spacing: 5px;
+  font-size: 2.8rem;
+  background: linear-gradient(
+    to right,
+    var(--primary-color-1),
+    var(--primary-color-2),
+    var(--primary-color-4),
+    var(--primary-color-3)
+  );
+  background-clip: text;
+  color: transparent;
 }
 
-@media screen and (max-width: 960px){
-    .heading-text{
-        font-size: 1.2rem;
-    }
-    .heading-main{
-        letter-spacing: 4px;
-        font-size: 2rem;
-    }
+@media screen and (max-width: 960px) {
+  .heading-text {
+    font-size: 1.2rem;
+  }
+  .heading-main {
+    letter-spacing: 4px;
+    font-size: 2rem;
+  }
 }

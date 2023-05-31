@@ -1,0 +1,25 @@
+:root {
+  --white-color: #f6f4f4;
+  --primary-color-1: #530889;
+  --primary-color-2: #d60296;
+  --primary-color-3: #f85b4e;
+  --primary-color-4: #ddd1c2;
+  --primary-dark-color: #e0237f;
+  --primary-dark-color: #1c1c21;
+}
+
+.loader {
+  text-align: center;
+  background-color: #282c34;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+/* 
+@media screen and(max-width: 960px) {
+    .loader {
+        height: 110vh;       
+    }
+} */

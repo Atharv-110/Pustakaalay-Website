@@ -36,15 +36,15 @@ li{
 ::-webkit-scrollbar {
   width: 0.5rem;
   border-radius: 0.5rem;
-  background-color: #050B23;
+  background-color: #1c1c21;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #8788D1;
+  background: #f85b4e;
   height: 75px;
   border-radius: 0.2rem;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #DDD1C2;
+  background: #ddd1c2;
 }

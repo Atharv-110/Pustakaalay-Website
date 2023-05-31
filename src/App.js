@@ -7,7 +7,7 @@ import Issues from "./components/js/main/issues";
 import Contact from "./components/js/main/contact";
 import Hero from "./components/js/main/hero";
 import Footer from "./components/js/utils/footer";
-// import FAQ from './components/js/main/faq';
+import FAQ from './components/js/main/faq';
 import Services from "./components/js/main/services";
 
 function App() {
@@ -30,7 +30,7 @@ function App() {
         <About />
         <Issues />
         <Services />
-        {/* <FAQ /> */}
+        <FAQ />
         <Contact />
         <Footer />
         </>

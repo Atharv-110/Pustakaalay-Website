@@ -10,24 +10,26 @@ export default function About() {
         <Heading text="About" main="PUSTAKAALAY" />
         <div className="about-text">
           <p>
-            Litopia, an ideal imaginary place for every reader's fictional
-            escape. With this being the concept and a carnival, we envision it
-            to be one of the grandest literary fests of the university.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit veniam
+            vel, et asperiores illum voluptas minus deserunt dolor molestias
+            perspiciatis consequatur. Dolore architecto perspiciatis natus
+            beatae, in vitae rem asperiores.
           </p>
           <p>
-            In this two-day event, we are delivering numerous contests that will
-            not only gain the interest of the masses but will also excite them
-            to explore further in the caves of Litopia.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis nihil
+            reiciendis expedita nesciunt alias totam placeat beatae sapiente
+            incidunt cumque voluptatem itaque magni, eaque atque accusantium
+            quia rem minus aliquam.
           </p>
           <p>
             Know more about{" "}
             <a
               className="link"
-              href="https://instagram.com/sahityik_mu?igshid=YmMyMTA2M2Y="
+              href="/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Litopia
+              Pustakaalay
             </a>
             .
           </p>
@@ -37,25 +39,29 @@ export default function About() {
             <p>Connect With Us</p>
           </div>
           <div className="about-link">
-            <a href="https://instagram.com/sahityik_mu?igshid=YmMyMTA2M2Y=" target="_blank" rel="noreferrer">
+            <a href="https://instagram.com/" target="_blank" rel="noreferrer">
               {" "}
               <i className="bx bxl-instagram-alt"></i>
-
             </a>
-            <a href="https://api.whatsapp.com/send?phone=8889140648" target="_blank" rel="noreferrer">
+            <a
+              href="https://api.whatsapp.com/send?phone="
+              target="_blank"
+              rel="noreferrer"
+            >
               {" "}
               <i className="bx bxl-whatsapp"></i>
-
             </a>
-            <a href="https://discord.gg/JeSjSWSFgf"  target="_blank" rel="noreferrer">
+            <a href="/" target="_blank" rel="noreferrer">
               {" "}
               <i className="bx bxl-discord-alt"></i>
-
             </a>
-            <a href="mailto: thesahityikclub@gmail.com" target="_blank" rel="noreferrer">
+            <a
+              href="mailto:info@pustakaalay.in"
+              target="_blank"
+              rel="noreferrer"
+            >
               {" "}
-              <i class='bx bxs-envelope'></i>
-
+              <i class="bx bxs-envelope"></i>
             </a>
           </div>
         </div>

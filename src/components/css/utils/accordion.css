@@ -1,0 +1,90 @@
+:root {
+  --white-color: #f6f4f4;
+  --primary-color-1: #530889;
+  --primary-color-2: #d60296;
+  --primary-color-3: #f85b4e;
+  --primary-color-4: #ddd1c2;
+  --primary-dark-color: #e0237f;
+  --primary-dark-color: #1c1c21;
+  --normal-font: 1.2rem;
+  --padding: 5% 10%;
+}
+
+.accordion {
+  width: 90%;
+  /* margin: 100px auto 0; */
+  /* border-radius: 3px; */
+  background: var(--primary-dark-color);
+  border: none;
+  /* border-right: 1px solid rgb(65, 64, 64); */
+  /* border-bottom: 1px solid rgb(65, 64, 64); */
+
+}
+
+.accordion-visible {
+  background: var(--primary-dark-color);
+  width: 100%;
+  color: var(--white-color);
+  cursor: pointer;
+  border: none;
+  border-bottom: 1px solid rgb(65, 64, 64);
+  outline: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 15px;
+  /* border-top-left-radius: 3px;
+  border-top-right-radius: 3px; */
+}
+
+.accordion-visible span {
+  padding: 15px 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+.accordion-visible img {
+  width: 10px;
+  transform: rotate(0deg);
+  transition: transform 0.2s ease-in-out;
+  filter: invert(50%);
+}
+.accordion-visible img.active {
+  transform: rotate(90deg)
+}
+
+.accordion-visible h2 {
+  font-size: 20px;
+}
+
+.accordion-toggle {
+  height: 0px;
+  font-size: 18px;
+  opacity: 0;
+  transition:  
+  opacity 0.3s ease-in-out,
+  height 0.3s 0.3s ease-in-out;
+  color: var(--white-color);
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.animated {
+  opacity: 1;
+  transition:  
+  height 0.3s ease-in-out,
+  opacity 0.3s 0.3s ease-in-out;
+}
+
+.accordion-toggle p {
+  margin: 0;
+  padding: 22px 15px;
+  pointer-events: none;
+  line-height: 1.3;
+  color: rgb(171, 171, 171);
+}
+
+@media screen and (max-width: 960px) {
+  .accordion {
+    width: 100%;
+  }
+}

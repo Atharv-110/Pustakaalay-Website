@@ -17,7 +17,7 @@ export default function Footer() {
               rel="noreferrer"
               href="https://www.linkedin.com/in/atharv-vani110/"
             >
-              Atharv
+              Atharv Vani
             </a>
           </p>
         </div>

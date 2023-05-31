@@ -1,0 +1,109 @@
+:root {
+    --white-color: #F6F4F4;
+    --primary-color-1: #530889;
+    --primary-color-2:#D60296;
+    --primary-color-3:#F85B4E;
+    --primary-color-4:#DDD1C2;
+    --primary-dark-color : #E0237F;
+    --primary-dark-color : #1C1C21;
+    --normal-font: 1.2rem;
+    --padding: 5% 10%;
+    }
+    
+    @keyframes about-link-animation {
+      0% {
+        background-image: linear-gradient(
+            var(--primary-dark-color),
+            var(--primary-dark-color)
+          ),
+          radial-gradient(
+            circle at top left,
+            var(--primary-color-1),
+            var(--primary-color-2),
+            var(--primary-color-3),
+            var(--primary-color-4)
+          );
+      }
+      25% {
+        background-image: linear-gradient(
+            var(--primary-dark-color),
+            var(--primary-dark-color)
+          ),
+          radial-gradient(
+            circle at top left,
+            var(--primary-color-2),
+            var(--primary-color-3),
+            var(--primary-color-4),
+            var(--primary-color-1)
+          );
+      }
+      75% {
+        background-image: linear-gradient(
+            var(--primary-dark-color),
+            var(--primary-dark-color)
+          ),
+          radial-gradient(
+            circle at top left,
+            var(--primary-color-3),
+            var(--primary-color-4),
+            var(--primary-color-1),
+            var(--primary-color-2)
+          );
+      }
+      100% {
+        background-image: linear-gradient(
+            var(--primary-dark-color),
+            var(--primary-dark-color)
+          ),
+          radial-gradient(
+            circle at top left,
+            var(--primary-color-4),
+            var(--primary-color-3),
+            var(--primary-color-2),
+            var(--primary-color-1)
+          );
+      }
+    }
+    
+.issues{
+    padding: var(--padding);
+}
+
+.issues-container{
+  display: flex;
+  margin-top: 5%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  /* align-items: center; */
+}
+.issues-card{
+    max-width: 250px;
+    /* background-color:#530889 ; */
+    text-align: center;
+    margin: 30px 10px;
+}
+
+.index{
+    width: 60px;
+    height: 60px;
+    font-size: 3rem;
+
+    background-image:
+          radial-gradient(
+            circle at top left,
+            var(--primary-color-1),
+            var(--primary-color-2),
+            var(--primary-color-3),
+            var(--primary-color-4)
+          );
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    margin: auto;
+}
+
+.title{
+    margin: 20px 0;
+}

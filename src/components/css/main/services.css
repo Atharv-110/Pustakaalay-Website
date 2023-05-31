@@ -1,0 +1,140 @@
+:root {
+  --white-color: #f6f4f4;
+  --primary-color-1: #530889;
+  --primary-color-2: #d60296;
+  --primary-color-3: #f85b4e;
+  --primary-color-4: #ddd1c2;
+  --primary-dark-color: #e0237f;
+  --primary-dark-color: #1c1c21;
+  --normal-font: 1.2rem;
+  --padding: 5% 10%;
+}
+
+.service {
+  padding: var(--padding);
+}
+
+.service-container {
+  margin-top: 6%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  margin: 20px 10px;
+  width: 200px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: var(--primary-dark-color);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 1.6;
+  box-shadow: 0px 0px 5px 1px rgba(246, 244, 244, 0.5);
+  transition: all 0.5s ease-in-out;
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+}
+
+.service-card:hover:nth-child(1) {
+  box-shadow: 0px 0px 10px 1px #ff84dacd;
+}
+.service-card:hover:nth-child(2) {
+  box-shadow: 0px 0px 10px 1px #c87bffcc;
+}
+.service-card:hover:nth-child(3) {
+  box-shadow: 0px 0px 10px 1px #fc9b92dd;
+}
+.service-card:hover:nth-child(4) {
+  box-shadow: 0px 0px 10px 1px rgba(253, 253, 134, 0.87);
+}
+
+.service-icon i {
+  font-size: 60px;
+  background: linear-gradient(
+    to bottom right,
+    var(--primary-color-1),
+    var(--primary-color-2),
+    var(--primary-color-4),
+    var(--primary-color-3),
+    var(--primary-color-3)
+  );
+  background-clip: text;
+  color: transparent;
+}
+
+.service-info {
+    display: flex;
+    overflow-x: hidden;
+    /* flex-wrap: wrap; */
+    margin-top: 5%;
+}
+
+.second {
+    margin-top: 0;
+    flex-direction: row-reverse;
+}
+
+.service-left, .service-right {
+    padding: 3.5rem;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(65, 64, 64);
+}
+
+/* .service-right {
+    padding: 3rem;
+    width: 50%;
+} */
+
+.service-right li {
+    list-style-type: circle;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.service-left .heading-main {
+    font-size: 2rem;
+    text-align: left;
+    letter-spacing: 3px;
+}
+
+@media screen and (max-width: 960px) {
+    .service-info {
+        flex-direction: column;
+        margin-top: 15%;
+    }
+    
+    .second {
+        margin-top: 0;
+    }
+
+    .service-left, .service-right {
+        padding: 3rem 1.5rem;
+        width: 100%;
+    }
+
+    .service-right li {
+        list-style-type: circle;
+        font-size: .9rem;
+        margin: 10px 10px;
+        line-height: 2;
+        text-align: justify;
+    }
+    
+    .service-left .heading-main {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}
+
